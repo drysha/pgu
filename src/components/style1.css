@@ -1,0 +1,21 @@
+.description-directions {
+    padding: 50px 165px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background: linear-gradient(0deg, #F1F9FF, #F1F9FF), #FFFFFF;
+}
+.description-directions-title {
+    font-family: 'Montserrat-Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+    color: #3E4554;
+}
+
+
+
+

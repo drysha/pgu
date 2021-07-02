@@ -1,0 +1,164 @@
+.department_description{
+    font-family: Verdana;
+    background: #F1F9FF;
+}
+.department_description_name{
+    padding-top: 71px;
+    padding-left: 165px;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 71px;
+}
+
+.department_description_blocks{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 450px;
+    padding-right: 245px;
+}
+
+.department_description_block_of_information{
+    width: 445px;
+    height: 180px;
+    border: 1px solid #D3DBE6;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-bottom: 37px;
+}
+
+.bloc_information_about_grade{
+    margin-top: 27px;
+    margin-left: 26px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.bloc_information_about_direction{
+    margin-top: 6px;
+    margin-left: 26px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.bloc_information_about_period1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px;
+    margin-left: 26px;
+    margin-right: 29px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.bloc_information_about_period2{
+    margin-left: 26px;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 9px;
+}
+bloc_information_about_period1_subtitle{
+    color: #959CB1;
+}
+
+span{
+    color: #2F80ED;
+}
+
+
+.department_description_block_of_information:hover{
+    background: #2F80ED;
+}
+
+
+.department_description_block_of_information:hover span{
+    color: white;
+}
+
+
+@media screen and (max-width: 1375px){
+    .department_description_blocks{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .department_description_block_of_information{
+        margin-right: 0px;
+    }
+    .department_description_name{
+        padding-left: 15px;
+    }
+    .department_description_block_of_information {
+        width: 445px;
+        height: 210px;
+    }
+}
+
+
+@media screen and (max-width: 1700px){
+    .department_description_blocks{
+        padding-left: 150px;
+        padding-right: 15px;
+    }
+    .department_description_block_of_information{
+        margin-right: 100px;
+    }
+    .department_description_name{
+        padding-left: 15px;
+    }
+    .department_description_block_of_information {
+        width: 445px;
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .department_description_blocks{
+        padding-left: 100px;
+    }
+    .department_description_block_of_information{
+        margin-right: 50px;
+    }
+    .department_description_name{
+        padding-left: 15px;
+    }
+    .department_description_block_of_information {
+        width: 445px;
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 1140px){
+    .department_description_blocks{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .department_description_block_of_information{
+        margin-right: 50px;
+    }
+    .department_description_name{
+        padding-left: 15px;
+    }
+    .department_description_block_of_information {
+        width: 445px;
+        height: 210px;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .department_description_blocks{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .department_description_block_of_information{
+        margin-right: 0px;
+    }
+    .department_description_name{
+        padding-left: 15px;
+    }
+    .department_description_block_of_information {
+        width: 445px;
+        height: 210px;
+    }
+}
+
+
